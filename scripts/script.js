@@ -5,6 +5,6 @@ contents.forEach((elem) => {
     const descr = elem.querySelector('.program-line__descr')
 
     title.addEventListener('click', () => {
-        descr.classList.toggle('active')
+        descr.classList.toggle('active')//позволяет отобразить или скрыть выбранные элементы
     }) 
 })
