@@ -27,6 +27,7 @@ const progress = () => {
         }, speed);
     }
 
+    
     startProgress(1, 1500)
 
 
