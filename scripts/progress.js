@@ -9,7 +9,7 @@ const progress = () => {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    const randomMax = getRandomInt(350000, 400000)
+    const randomMax = getRandomInt(350000, 600000)
     lebel.innerHTML = randomMax;
     console.log(lebel)
     function startProgress(speed, step) {
